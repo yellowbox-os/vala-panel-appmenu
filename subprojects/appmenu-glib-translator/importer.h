@@ -16,6 +16,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include <sys/types.h>  // For platform-specific type definitions
+ 
+#ifndef ulong
+typedef unsigned long ulong;
+#endif
+
 #ifndef IMPORTER_H
 #define IMPORTER_H
 

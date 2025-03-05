@@ -22,6 +22,12 @@
  *          Lester Carballo Perez <lestcape@gmail.com>
  */
 
+#include <sys/types.h>  // For platform-specific type definitions
+ 
+#ifndef ulong
+typedef unsigned long ulong;
+#endif
+
 #ifndef DATASTRUCTSPRIVATE_H
 #define DATASTRUCTSPRIVATE_H
 
